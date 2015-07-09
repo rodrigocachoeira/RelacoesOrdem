@@ -1,0 +1,43 @@
+
+.box{
+	width:350px;
+	height:350px;
+}
+
+div.box{
+	position: relative;
+	margin:0 auto;
+	padding:0;
+}
+
+canvas.box{
+	z-index: -999;
+}
+
+input[type=radio]{
+	box-shadow: 1px 1px 1px 1px #888;
+}
+
+input[type=radio].node{
+	position: absolute;
+}
+
+div.text-padding{
+	padding: 0 20px;
+	line-height: 26px;
+	text-indent: 1cm;
+	text-align: justify;
+}
+
+div.result{
+	float:right;
+}
+
+div.description-radio{
+	float:left;
+	position: absolute;
+}
+
+input.activateToDraw{
+	box-shadow: 1px 1px 1px 4px #c30;
+}
